@@ -5,7 +5,7 @@ export async function up(knex: Knex): Promise<void> {
     table.uuid('id').primary()
     table.uuid('session_id').after('id').index()
     table.text('name').notNullable()
-    table.text('email').notNullable()
+    table.text('email').notNullable().unique()
     table.timestamp('created_at').defaultTo(knex.fn.now()).notNullable()
   })
 }
