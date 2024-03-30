@@ -21,7 +21,7 @@
 
 - [x] Deve ser possível visualizar uma única refeição
 
-- [ ] Deve ser possível recuperar as métricas de um usuário
+- [x] Deve ser possível recuperar as métricas de um usuário
     - [x] Quantidade total de refeições registradas
     - [x] Quantidade total de refeições dentro da dieta
     - [x] Quantidade total de refeições fora da dieta
